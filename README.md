@@ -1,8 +1,6 @@
 Colissimo
 ===
 
-Colissimo tracking cli
-
 > A simple CLI tool to track your packages
 
 Install
