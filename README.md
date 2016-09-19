@@ -3,6 +3,8 @@ Colissimo
 
 Colissimo tracking cli
 
+> A simple CLI tool to track your packages
+
 Install
 ---
 
@@ -16,3 +18,15 @@ colissimo() {
 -- or --
 
 Add `colissimo` to `/usr/local/bin`
+
+Usage
+---
+
+`collisimo <track_number>`
+
+License
+---
+
+MIT
+
+**Free Software, Hell Yeah!**
