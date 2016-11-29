@@ -5,6 +5,6 @@ if [[ -z $1 ]]; then
     exit 1
 fi
 
-curl -s -X POST -d "suivi%5Bnumber%5D=$1" http://www.laposte.fr/particulier/outils/suivre-vos-envois | grep -Po '<p class="h5">(.*?)<\/p><\/td>'| sed 's|<[^>]*>||g'
+ curl -s -X POST -d "parcelnumber=6H11386796562" http://www.colissimo.fr/portail_colissimo/suivreResultatStubs.do|grep -Pzo '<td headers="Libelle">(.*?)<\/td>'
 
 exit 0
